@@ -1,1 +1,29 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sun Flower Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🌻 Sun Flower</h1>
+  <p class="tagline">Smart Step Generator Tool</p>
+
+  <input type="number" id="amount" placeholder="Enter Amount">
+  <input type="number" id="steps" placeholder="Enter Steps">
+
+  <button onclick="makeSteps()">Generate Steps</button>
+
+  <pre id="output"></pre>
+  <button class="download" onclick="downloadTxt()">Download Steps (.txt)</button>
+
+  <footer>
+    <p>© 2026 Sun Flower | All Rights Reserved</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
